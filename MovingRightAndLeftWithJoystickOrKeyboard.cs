@@ -3,8 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-
-
     public class Player : MonoBehaviour
  {
     [Space]
@@ -49,8 +47,7 @@ using UnityEngine.InputSystem;
         if (onGround && jumped)
         {
             Jump();
-        }
-        
+        } 
     }
 
     private void Walk(Vector2 dir)
